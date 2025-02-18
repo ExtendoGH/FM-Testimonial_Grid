@@ -202,12 +202,10 @@ body {
 
 @media (min-width: 1200px) {
   body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 22.9rem;
+    margin-bottom: 21.8rem;
+    padding: 0;
   }
-
   .testimonial {
     max-width: 1114px;
     display: grid;
