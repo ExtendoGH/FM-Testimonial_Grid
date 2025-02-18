@@ -43,10 +43,6 @@ body {
   padding: 7.3rem 3.5rem;
   line-height: 150%;
   font-weight: var(--font-medium);
-  /* height: 100vh; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .testimonial {
