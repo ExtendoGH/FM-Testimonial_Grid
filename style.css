@@ -43,7 +43,10 @@ body {
   padding: 7.3rem 3.5rem;
   line-height: 150%;
   font-weight: var(--font-medium);
-  height: 100vh;
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimonial {
@@ -202,6 +205,13 @@ body {
 //////////////////////////////////////////////////////////*/
 
 @media (min-width: 1200px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .testimonial {
     max-width: 1114px;
     display: grid;
