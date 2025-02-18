@@ -43,6 +43,7 @@ body {
   padding: 7.3rem 3.5rem;
   line-height: 150%;
   font-weight: var(--font-medium);
+  height: 100vh;
 }
 
 .testimonial {
@@ -171,6 +172,8 @@ body {
 @media (min-width: 768px) {
   .testimonial {
     display: grid;
+    align-content: center;
+    justify-content: center;
     grid-template-columns: 1fr 1fr;
   }
 
